@@ -1,0 +1,48 @@
+body {
+  background-color: black;
+}
+
+.flag {
+  height: 377.95275591px;
+  width: 566.92913386px;
+  position: relative;
+}
+
+.flag > #orange {
+  height: 125.98425197px;
+  width: 100%;
+  border: 1px solid orange;
+  position: absolute;
+  background-color: orange;
+}
+
+.flag > #white {
+  height: 125.98425197px;
+  width: 100%;
+  border: 1px solid white;
+  position: absolute;
+  top: 125.98425197px;
+  background-color: white;
+}
+
+.flag > #green {
+  height: 125.98425197px;
+  width: 100%;
+  border: 1px solid green;
+  position: absolute;
+  top: 251.96850394px;
+  background-color: green;
+}
+
+.flag > #white #chakra>img {
+  height: 125.98425197px;
+  width: 125.98425197px;
+  border-radius: 50%;
+  position: relative;
+  left: 220.472440945px;
+}
+
+body .flag {
+  margin-left: auto;
+  margin-right: auto;
+}
